@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تواصل معنا | مستشفى الشفاء</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <div class="logo"><span class="logo-icon">➕</span><span>مستشفى <b>الشفاء</b></span></div>
+      <nav><ul class="nav-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="about.html">حول</a></li>
+        <li><a href="departments.html">الأقسام</a></li>
+        <li><a href="contact.html" class="active">تواصل معنا</a></li>
+      </ul></nav>
+      <a href="contact.html" class="btn btn-primary">احجز موعد</a>
+      <div class="menu-toggle" id="menuToggle">☰</div>
+    </div>
+  </header>
+
+  <section class="page-head">
+    <div class="container">
+      <h1>تواصل <span class="gradient">معنا</span></h1>
+      <p>نحن هنا لخدمتك في أي وقت</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+
+      <div class="contact-info">
+        <h2>معلومات التواصل</h2>
+        <div class="info-item"><span>📞</span><div><b>الهاتف</b><p>800-123-4567</p></div></div>
+        <div class="info-item"><span>✉️</span><div><b>البريد</b><p>info@shifa.com</p></div></div>
+        <div class="info-item"><span>📍</span><div><b>العنوان</b><p>الرياض، المملكة العربية السعودية</p></div></div>
+        <div class="info-item"><span>🕐</span><div><b>ساعات العمل</b><p>الطوارئ: 24 ساعة | العيادات: 8ص - 10م</p></div></div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <h2>احجز موعدك</h2>
+        <div class="input-group">
+          <input type="text" placeholder="الاسم الكامل" required>
+        </div>
+        <div class="input-group">
+          <input type="email" placeholder="البريد الإلكتروني" required>
+        </div>
+        <div class="input-group">
+          <input type="tel" placeholder="رقم الجوال" required>
+        </div>
+        <div class="input-group">
+          <select required>
+            <option value="">اختر القسم</option>
+            <option>أمراض القلب</option>
+            <option>المخ والأعصاب</option>
+            <option>العظام</option>
+            <option>الأطفال</option>
+            <option>الأسنان</option>
+            <option>العيون</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <textarea rows="4" placeholder="رسالتك أو وصف الحالة"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%">إرسال الطلب</button>
+        <p class="form-msg" id="formMsg"></p>
+      </form>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div><h3>➕ مستشفى الشفاء</h3><p>رعاية طبية موثوقة منذ 1990</p></div>
+      <div><h4>روابط سريعة</h4>
+        <a href="index.html">الرئيسية</a><a href="about.html">حول</a>
+        <a href="departments.html">الأقسام</a><a href="contact.html">تواصل</a>
+      </div>
+      <div><h4>تواصل معنا</h4><p>📞 800-123-4567</p><p>✉️ info@shifa.com</p><p>📍 الرياض</p></div>
+    </div>
+    <div class="copy">© 2025 مستشفى الشفاء</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
